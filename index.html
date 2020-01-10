@@ -12,64 +12,79 @@
 
     <title>Document</title>
 </head>
-<body>
-    <!-- Header: Logo/Name, seitenbreites Bild, h1, oben rechts Kontakte -->
-    <!-- Kontakte: Xing Link, Mail -->
-    
+<body class="bg-dark text-white">
+  
+  
+  <!-- Header: Logo/Name, seitenbreites Bild, h1, oben rechts Kontakte -->
+ <div class="container-fluid text-secondary p-0">
+    <div class="row"> 
+      <div class="col text-center">
+      <!-- Test mit figure -->
+      <!-- <figure class="figure position-relative">
+        <figcaption class="display-2 position-absolute text-light">Hallo :-)</figcaption>
+        <img src="https://unsplash.it/700/200" class="figure-img img-fluid" alt="">
+      </figure>
+    </div> -->
+       <!-- END: TEst mit figure -->
+
+   
+        
+        <!-- bestimmte Bilder bei Unsplash einbinden: -->
+        <!-- <img src= "https://unsplash.it/600/400?image=501"> -->
+
+        <!-- Kontakte: Xing Link, Mail -->
+       <!-- <h1 class="text-left px-4 mt-10 display-2 text-light position-absolute">Hallooo :-)</h1>
+       <img src= "https://unsplash.it/700/200" class="img-fluid" alt=""> -->
+
+       <!-- --------------- -->
+
+       <div class="card bg-dark text-white">
+        <div class="card-img-overlay mt-5">
+          <h5 class="card-text display-2 text-light text-left mt-5 font-weight-bold">Hallo :-)</h5>
+        </div>
+        <img src="https://unsplash.it/700/200" class="shadow" alt="">
+        
+      </div>
+
+
+
+      </div> 
+    <!-- </div> -->
+  </div>
+  
     <!-- Main (about.html): Was will ich? (future) /Wer bin ich?(present)/Was hab ich gemacht? (past)   -->
+    <main class="container text-light mt-5">
+      <div class="row">
+        <div class="col">
+          <h2>Was war?</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias vitae praesentium impedit? Officia tenetur sit nesciunt nemo impedit, atque quasi, fuga recusandae voluptatibus molestiae provident suscipit perspiciatis a libero repellat!</p>
+          
+          <img src= "https://unsplash.it/500/200?image=101">
 
-    <!-- Nav zu Unterseiten (unten): Button "About", "Projects" TEst-->
+          <h2>Was kommt?</h2>
+          <p>Magni voluptatem dolore, nihil mollitia nemo, quisquam odio earum labore esse laboriosam nesciunt vitae sit deserunt architecto reiciendis. Recusandae adipisci quasi odio! Quos atque minus fugiat non explicabo suscipit obcaecati!</p>
+          
+          <img src= "https://unsplash.it/500/200?image=201">
 
-    About Work
-
-    <main class="container text-light">
-        <div class="row mb-5">
-          <div class="col-md mb-3 mb-md-0 ">
-            <section class="bg-dark p-2">One</section>
-          </div>
-          <div class="col-md mb-3 mb-md-0">
-            <section class="bg-info p-2">Two</section>
-          </div>
-          <div class="col-md mb-3 mb-md-0">
-            <section class="bg-dark p-2">Three</section>
-          </div>
-          <div class="col-md">
-            <section class="bg-info p-2">Four</section>
-          </div>
+          <h2>Was ist?</h2>
+          <p>Dolore, maxime? Odio fuga sequi veniam quis cum quod eligendi qui at, sapiente, dolore, aliquam provident ipsum cumque? Voluptate repellat vero repudiandae, qui est doloremque earum harum repellendus aut maxime.</p>
         </div>
-        <div class="row mb-5">
-          <div class="col">
-            <section class="bg-info">Col 1</section>
-          </div>
-          <div class="col">
-            <section class="bg-dark">Col 2</section>
-          </div>
-          <div class="col">
-            <section class="bg-info">Col 3</section>
-          </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col-md-8 col-lg-6">
-            <section class="bg-info">Col 1</section>
-          </div>
-          <div class="col-md-4 col-lg-6">
-            <section class="bg-dark">Col 2</section>
-          </div>
-        </div>
+      </div>
+    </main>
+    <!-- Nav zu Unterseiten (unten): Button "About", "Projects" -->
+    <nav class="container-fluid fixed-bottom mb-auto py-3">
+      
         <div class="row">
-          <div class="col">
-            <section class="bg-info">One</section>
+          <!-- Button: About  -->
+          <div class=" col px-0 shadow mb-n3 bg-dark">
+            <section class="py-4 text-center bg-info">About</section>
           </div>
-          <div class="col-6">
-            <section class="bg-dark">Two</section>
-          </div>
-          <div class="col">
-            <section class="bg-info">Three</section>
+          <!-- Button: Projects  -->
+          <div class="col px-0 shadow  mb-n3 bg-dark">
+            <section class="py-4 text-center bg-light">Projects</section>
           </div>
         </div>
-      </main>
-
-    
+        </nav>  
 </body>
 </html>
 
